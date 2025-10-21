@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Constelações Visíveis"
+        android:text="@string/dialog_constellations_title"
         android:textSize="16sp"
         android:textStyle="bold"
         android:layout_marginBottom="12dp"/>
@@ -17,25 +17,25 @@
         android:id="@+id/checkGps"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GPS" />
+        android:text="@string/constellation_gps" />
 
     <CheckBox
         android:id="@+id/checkGlonass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GLONASS" />
+        android:text="@string/constellation_glonass" />
 
     <CheckBox
         android:id="@+id/checkBeidou"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BEIDOU" />
+        android:text="@string/constellation_beidou" />
 
     <CheckBox
         android:id="@+id/checkGalileo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GALILEO" />
+        android:text="@string/constellation_galileo" />
 
     <View
         android:layout_width="match_parent"
@@ -47,7 +47,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Opções de Visualização"
+        android:text="@string/dialog_options_title"
         android:textSize="16sp"
         android:textStyle="bold"
         android:layout_marginBottom="12dp"/>
@@ -56,6 +56,6 @@
         android:id="@+id/checkShowUnused"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mostrar satélites não usados no Fix" />
+        android:text="@string/option_show_unused" />
 
 </LinearLayout>

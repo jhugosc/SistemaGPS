@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">Avaliacao N1</string>
+<string name="app_name">Avaliacao N1</string>
+
+<string name="permission_needed_precise">A localização Precisa é necessária para esta aplicação.</string>
+<string name="permission_denied">Permissão de localização negada. O app não pode funcionar.</string>
+<string name="searching_satellites">Procurando sinal de satélite...</string>
+
+<string name="dialog_title">Configurar Visualização</string>
+<string name="dialog_constellations_title">Constelações Visíveis</string>
+<string name="constellation_gps">GPS</string>
+<string name="constellation_glonass">GLONASS</string>
+<string name="constellation_beidou">BEIDOU</string>
+<string name="constellation_galileo">GALILEO</string>
+<string name="dialog_options_title">Opções de Visualização</string>
+<string name="option_show_unused">Mostrar satélites não usados no Fix</string>
+<string name="dialog_ok">OK</string>
+<string name="dialog_cancel">Cancelar</string>
+
+<string name="info_visible">Visíveis: </string>
+<string name="info_in_use"> / Em uso: </string>
 </resources>

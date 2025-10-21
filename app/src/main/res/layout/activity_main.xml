@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    Usamos um FrameLayout para que a nossa View ocupe a tela inteira.
-    O fundo é definido como um azul escuro para simular o céu.
--->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000022"
+    android:background="@color/sky_background"
     tools:context=".MainActivity">
 
-    <!--
-        Esta é a nossa View customizada.
-        O pacote (com.example.avaliacaon1) deve corresponder ao do seu projeto.
-        O atributo 'app:sphereColor' é o nosso atributo customizado definido em attrs.xml.
-    -->
     <com.example.avaliacaon1.CelestialSphereView
         android:id="@+id/celestialSphereView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:sphereColor="#4CAF50" />
+        app:sphereColor="@color/default_sphere_color" />
 
 </FrameLayout>
